@@ -1,0 +1,12 @@
+{
+  "name": "wagento/fix-sales-sequence",
+  "description": "Create missing sales sequence tables",
+  "type":"magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Wagento\\FixSalesSequence\\": ""
+    }
+  }
+}
